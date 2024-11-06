@@ -1,5 +1,6 @@
 public class Point extends CreditCard {
     private double totalPoints; // Store total points instead of spending amount
+    @SuppressWarnings("unused")
     private int rewardCount; // Counter for the number of rewards given
 
     // Constructor

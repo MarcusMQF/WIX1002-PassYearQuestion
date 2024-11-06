@@ -48,5 +48,7 @@ public class Q4{
 
         Complex difference = c1.subtract(c2);
         System.out.println("Difference: " + difference);
+
+        sc.close();
     }
 }
