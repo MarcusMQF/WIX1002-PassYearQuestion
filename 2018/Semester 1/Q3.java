@@ -44,21 +44,21 @@ public class Q3 {
         System.out.println();
     }
 
-    public static void drawVerticalLines(int size, char type, boolean isVertical) {
-        for (int i = 0; i < size; i++) {
-            if (isVertical) {
+    public static void drawVerticalLines(int size, char type, boolean isVertical){
+        for(int i = 0; i < size; i++){
+            if(isVertical){
                 System.out.print(type);
-                for (int j = 0; j < size; j++) {
+                for(int j = 0; j < size; j++){
                     System.out.print(" ");
                 }
                 System.out.println(type);
-            } else {
+            }else{
                 System.out.print(type);
-                for (int j = 0; j < size; j++) {
+                for(int j = 0; j < size; j++){
                     System.out.print(" ");
                 }
                 System.out.print(type);
-                for (int j = 0; j < size; j++) {
+                for(int j = 0; j < size; j++){
                     System.out.print(" ");
                 }
                 System.out.println(type);
