@@ -3,6 +3,7 @@ import java.util.Scanner;
 // Filename: Q1.java
 public class Q1 {  // Fixed class name, removed space in "GraphsTest"
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         int number1 = 0, number2 = 0, number3 = 0, number4 = 0, number5 = 0;
         int inputNumber;
@@ -45,6 +46,6 @@ public class Q1 {  // Fixed class name, removed space in "GraphsTest"
             System.out.println();
         }
 
-        input.close();  
+        input.close();
     }
 }

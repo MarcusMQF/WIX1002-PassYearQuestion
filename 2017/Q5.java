@@ -70,5 +70,7 @@ public class Q5{
 
         System.out.println("\nEssay score:");
         System.out.println(essay.toString());
+
+        sc.close();
     }
 }
