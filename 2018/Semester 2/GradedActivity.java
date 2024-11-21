@@ -3,8 +3,8 @@ public class GradedActivity {
     private char letterGrade;
 
     public void setScore(double score) {
-        numericScore = score;
-        setLetterGrade();
+        numericScore = score; // Set the instance variable
+        setLetterGrade(); // Call the method to set the letter grade based on numericScore
     }
 
     private void setLetterGrade() {

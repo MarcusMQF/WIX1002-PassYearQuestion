@@ -14,7 +14,7 @@ public class Q2 {
         System.out.println();
         System.out.println("Price per kilogram: $5.99");
         System.out.println("Sales tax: 7.25%");
-        System.out.println("Total price after tax: " + price);
+        System.out.println("Total price after tax: $" + price);
 
         scanner.close();
     }

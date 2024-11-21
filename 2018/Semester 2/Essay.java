@@ -10,7 +10,8 @@ public class Essay extends GradedActivity {
         lengthScore = length;
         contentScore = content;
         
-        super.setScore(grammarScore + spellingScore + lengthScore + contentScore);
+        super.setScore(grammarScore + spellingScore + lengthScore + contentScore); 
+        // Pass the total score of the essay
     }
 
     public int getGrammarScore() {
